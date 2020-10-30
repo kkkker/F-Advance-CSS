@@ -1,20 +1,173 @@
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
+  min-width: 800px;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #262626;
+  color: white;
+  height: 50px;
+  width: 100vw;
+  min-width: 800px;
+}
+
+.nav-link {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link li {
+  flex: 1;
+  text-align: center;
+}
+
+.main {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+
+.left-aside {
+  width: 250px;
+  padding: 20px;
+}
+
+.left-aside section {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.about {
+  background-color: #F9F9F9;
+}
+
+.content {
+  flex: 1;
+}
+
+.article {
+  width: 47%;
+  box-sizing: border-box;
+  margin: 20px 10px 0 10px;
+  border: 1px solid #EEEEEE;
+  border-radius: 5px;
+}
+
+.article:nth-child(2n+1) {
+  float: left;
+}
+
+.article:nth-child(2n) {
+  float: right;
+}
+
+.article img {
+  width: 100%;
+  height: 130px;
+}
+
+.article figcaption {
+  padding: 20px;
+}
+
+.article article {
+  margin-top: 10px;
+}
+
+.article p {
+  margin-top: 30px;
+}
+.article a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.right-detail-logo {
+  position: relative;
+  left: -4px;
+}
+
+.right-aside {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in {
+  width: 230px;
+  height: 210px;
+  background-color: #F9F9F9;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-input {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.sign-input input {
+  height: 40px;
+  width: 100%;
+  padding: 10px;
+}
+
+.email-input {
+  border: 1px solid #EAECEE;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.password-input {
+  border: 1px solid #EAECEE;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.sign-remember {
+  width: 80%;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.sign-submit {
+  width: 80%;
+  margin-top: 20px;
+  height: 35px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  height: 80px;
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

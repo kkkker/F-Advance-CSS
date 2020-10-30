@@ -1,15 +1,110 @@
 <!doctype html>
 <html lang="zh-Hans">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Title</title>
   <link rel="stylesheet" href="./src/style/index.css">
 </head>
+
 <body>
-  Hello World
+  <nav class="nav">
+    <ul class="nav-link">
+      <li>Home</li>
+      <li>World</li>
+      <li>Technology</li>
+      <li>Design</li>
+      <li>Culture</li>
+      <li>Business</li>
+      <li>Politics</li>
+      <li>Opinion</li>
+      <li>Science</li>
+      <li>Health</li>
+    </ul>
+  </nav>
+  <main class="main">
+    <aside class="left-aside">
+      <section class="about">
+        <h2><i>About</i></h2>
+        <p>Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks or
+          registered trademarks of Oracle in the U.S. and other countries.</p>
+      </section>
+      <section class="archives">
+        <h2><i>Archives</i></h2>
+        <ul class="archives-link">
+          <li><a href="#">January 2020</a></li>
+          <li><a href="#">December 2019</a></li>
+          <li><a href="#">November 2019</a></li>
+          <li><a href="#">October 2019</a></li>
+          <li><a href="#">September 2019</a></li>
+          <li><a href="#">August 2019</a></li>
+          <li><a href="#">July 2019</a></li>
+          <li><a href="#">June 2019</a></li>
+          <li><a href="#">May 2019</a></li>
+          <li><a href="#">April 2019</a></li>
+        </ul>
+      </section>
+    </aside>
+    <section class="content">
+      <figure class="article">
+        <img src="./image/article.jpg" alt="article">
+        <figcaption>
+          <h2>Article 1</h2>
+          <article>Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are
+            trademarks or
+            registered trademarks of Oracle in the U.S. and other countries.</article>
+          <p><a href="#">View details ><span class="right-detail-logo">></span></a></p>
+        </figcaption>
+      </figure>
+      <figure class="article">
+        <img src="./image/article.jpg" alt="article">
+        <figcaption>
+          <h2>Article 2</h2>
+          <article>Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are
+            trademarks or
+            registered trademarks of Oracle in the U.S. and other countries. Do not confuse JavaScript with the Java
+            programming language. Both "Java" and
+            "JavaScript" are
+            trademarks or
+            registered trademarks of Oracle in the U.S. and other countries.Do not confuse JavaScript with the Java
+            programming language. Both "Java" and "JavaScript" are trademarks or
+            registered trademarks of Oracle in the U.S. and other countries.</article>
+          <p><a href="#">View details ><span class="right-detail-logo">></span></a></p>
+        </figcaption>
+      </figure>
+      <figure class="article">
+        <img src="./image/article.jpg" alt="article">
+        <figcaption>
+          <h2>Article 3</h2>
+          <article>Both "Java" and "JavaScript" are
+            trademarks or
+            registered trademarks of Oracle in the U.S. and other countries.</article>
+          <p><a href="#">View details ><span class="right-detail-logo">></span></a></p>
+        </figcaption>
+      </figure>
+    </section>
+    <aside class="right-aside">
+      <form class="sign-in">
+        <section class="sign-input">
+          <input type="email" name="email" id="email" class="email-input" placeholder="Email address" />
+          <input type="password" name="password" id="password" class="password-input" placeholder="Password" />
+        </section>
+        <section class="sign-remember">
+          <input type="checkbox" name="remember" id="remember" />
+          <label for="remember">Remember me</label>
+        </section>
+        <button class="sign-submit" type="submit">Sign in</button>
+      </form>
+    </aside>
+  </main>
+  <footer class="footer">
+    <p>Avanced CSS homework build by <a href="https://github.com/kkkker">@kkkker</a>.</p>
+    <p><a href="#top">back to top</a></p>
+  </footer>
   <script src="src/app.js"></script>
 </body>
+
 </html>
